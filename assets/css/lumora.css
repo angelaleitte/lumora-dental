@@ -9394,6 +9394,7 @@ footer {
 .section_team-page{
   background-color:#ffffff!important;
   background-image:none!important;
+  margin-bottom:60px;
 }
 .section_team-page .team-item_content{
   background:rgba(255,255,255,.9)!important;
