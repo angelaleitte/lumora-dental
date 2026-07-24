@@ -9132,3 +9132,29 @@ footer{border-top:3px solid var(--primitive-color--primary-500,#227299);}
 .navbar_logo{max-width:180px;}
 .logo_image{height:auto;max-height:48px;width:auto;max-width:100%;}
 .brand_logo{height:auto;max-height:44px;width:auto;max-width:180px;object-fit:contain;}
+
+
+/* Footer Sano Clinic tweaks */
+.section_footer .footer-instagram-handle,
+.section_footer .footer-instagram-handle div {
+  font-size: 20px !important;
+  line-height: 1.3;
+}
+.section_footer .footer-menu_subtitle {
+  color: #ffffff !important;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.section_footer .footer-attendance .footer-menu_link {
+  display: block;
+}
+
+.section_footer .footer-attendance_phones,
+.section_footer .footer-attendance_phones a {
+  color: #cdd8da !important;
+  font-size: 14px;
+  text-decoration: none;
+}
+.section_footer .footer-attendance_phones a:hover { color: #ffffff !important; }
