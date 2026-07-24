@@ -9330,12 +9330,39 @@ footer {
   background-color:transparent!important;
   background:transparent!important;
   box-shadow:none!important;
+  padding:20px 16px 8px!important;
+  gap:8px!important;
+  min-height:150px;
+}
+.section_team.is-home .team_item{
+  height:580px!important;
+  min-height:580px!important;
+  overflow:visible!important;
+  padding-bottom:12px!important;
+}
+.section_team.is-home .team_slider,
+.section_team.is-home .team-slider_mask,
+.section_team.is-home .w-slide{
+  overflow:visible!important;
+  height:auto!important;
+}
+.section_team.is-home .team_list.is-carousel-row{
+  padding-bottom:40px;
+  align-items:stretch;
 }
 .section_team.is-home .team-menmber_name,
 .section_team.is-home .team-menuber_designation,
 .section_team.is-home .team-menuber_cro{
   color:#ffffff!important;
   text-shadow:0 1px 8px rgba(0,0,0,.45);
+}
+.section_team.is-home .team-menmber_name{
+  font-size:20px!important;
+  line-height:1.25!important;
+}
+.section_team.is-home .team-contact-btn{
+  align-self:flex-start;
+  margin-top:8px;
 }
 .team-menuber_meta{display:flex;flex-direction:column;gap:2px;flex:1;}
 .team-menuber_cro{font-size:13px;color:var(--brand-gray,#606262);margin:0;}
