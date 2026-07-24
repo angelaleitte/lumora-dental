@@ -4174,6 +4174,18 @@ figure {
   outline-offset: 2px;
 }
 
+.our-info_inline-link {
+  color: var(--brand-cyan, #6cd5e0);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.our-info_inline-link:hover {
+  color: var(--brand-white, #ffffff);
+}
+
 .hero_overlay-wrap {
   z-index: 2;
   background-color: var(--color-shadow--pramary-5);
