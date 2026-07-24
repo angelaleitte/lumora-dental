@@ -4175,15 +4175,16 @@ figure {
 }
 
 .our-info_inline-link {
-  color: var(--brand-cyan, #6cd5e0);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  color: #ffffff;
+  text-decoration: none;
   font-weight: 600;
   white-space: nowrap;
 }
 
 .our-info_inline-link:hover {
-  color: var(--brand-white, #ffffff);
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.85;
 }
 
 .hero_overlay-wrap {
