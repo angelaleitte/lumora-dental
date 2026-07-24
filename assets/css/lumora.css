@@ -9327,11 +9327,13 @@ footer {
 .team-slider_arrow-icon{margin-top:-2px;}
 .team-slider_nav{margin-top:12px;}
 .section_team.is-home .team-item_content{
-  background-color:transparent!important;
-  background:transparent!important;
-  box-shadow:none!important;
-  padding:20px 16px 8px!important;
-  gap:8px!important;
+  background-color:rgba(255,255,255,.82)!important;
+  background:rgba(255,255,255,.82)!important;
+  box-shadow:0 8px 24px rgba(0,0,0,.12)!important;
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+  padding:16px 16px 14px!important;
+  gap:6px!important;
   min-height:150px;
 }
 .section_team.is-home .team_item{
@@ -9353,12 +9355,20 @@ footer {
 .section_team.is-home .team-menmber_name,
 .section_team.is-home .team-menuber_designation,
 .section_team.is-home .team-menuber_cro{
-  color:#ffffff!important;
-  text-shadow:0 1px 8px rgba(0,0,0,.45);
+  color:#1f3d4d!important;
+  text-shadow:none!important;
 }
 .section_team.is-home .team-menmber_name{
-  font-size:20px!important;
-  line-height:1.25!important;
+  font-size:18px!important;
+  line-height:1.2!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  max-width:100%;
+}
+.section_team.is-home .team-menuber_designation,
+.section_team.is-home .team-menuber_cro{
+  color:#606262!important;
 }
 .section_team.is-home .team-contact-btn{
   align-self:flex-start;
@@ -9384,6 +9394,17 @@ footer {
 .section_team-page{
   background-color:#ffffff!important;
   background-image:none!important;
+}
+.section_team-page .team-item_content{
+  background:rgba(255,255,255,.9)!important;
+  backdrop-filter:blur(6px);
+  -webkit-backdrop-filter:blur(6px);
+}
+.section_team-page .team-menmber_name{
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  max-width:100%;
 }
 .section_team-page .team_item{height:560px;}
 .section_team-page .team-menuber_bio{display:block;}
