@@ -9277,8 +9277,10 @@ footer{border-top:3px solid var(--primitive-color--primary-500,#227299);}
   border-top: 3px solid #6cd5e0 !important;
 }
 .navbar_wrap {
-  background-color: #329acd !important;
+  background-color: rgba(50, 154, 205, 0.85) !important;
   border-bottom-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 .section_footer .footer-external_link,
 .section_footer .footer-instagram-handle,
