@@ -1922,7 +1922,7 @@
                 var name=(f.querySelector('input[name="name"]').value||'').trim();
                 var phone=(f.querySelector('input[name="phone"]').value||'').trim();
                 if(!name||!phone){return false;}
-                var msg=encodeURIComponent("Hi Sano Clinic, Meu nome é "+name+". Meu WhatsApp é "+phone+" para agendar um atendimento odontológico.");
+                var msg=encodeURIComponent("Olá Sano Clinic, Meu nome é "+name+". Meu WhatsApp é "+phone+" para agendar um atendimento odontológico.");
                 try{ window.open("https://wa.me/911634323010?text="+msg,"_blank"); }catch(_){}
                 var card=f.closest('.lead-form_card');
                 if(card){
