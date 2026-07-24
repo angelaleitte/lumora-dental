@@ -9326,6 +9326,17 @@ footer {
 }
 .team-slider_arrow-icon{margin-top:-2px;}
 .team-slider_nav{margin-top:12px;}
+.section_team.is-home .team-item_content{
+  background-color:transparent!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.section_team.is-home .team-menmber_name,
+.section_team.is-home .team-menuber_designation,
+.section_team.is-home .team-menuber_cro{
+  color:#ffffff!important;
+  text-shadow:0 1px 8px rgba(0,0,0,.45);
+}
 .team-menuber_meta{display:flex;flex-direction:column;gap:2px;flex:1;}
 .team-menuber_cro{font-size:13px;color:var(--brand-gray,#606262);margin:0;}
 .team-menuber_bio{font-size:14px;line-height:1.45;color:var(--brand-gray,#606262);margin:4px 0 0;}
